@@ -3,209 +3,458 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhiditya's Portfolio</title>
+    <title>Abhiditya Kumari - Portfolio</title>
+    
+    <!-- Classic Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-	<link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/jpg" href="./Img/logo.jpg">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo-holder">
-			<img src="./Img/logo.jpg">
-		</a>
-		<nav>
-			<ul id="menu">
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li>
-					<a href="#achievements">Achievements</a>
-				</li>
-				<li>
-					<a href="#projects">Projects</a>
-				</li>
-				<li>
-					<a href="mailto:k.abhiditya09@gmail.com" class="button">Contact Me</a>
-				</li>
-			</ul>
-			<button id="theme-toggle">
-				<span class="material-symbols-outlined" id="theme-icon">light_mode</span>
-			</button>
-			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
-				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
-				</svg>
-			</a>
-		</nav>
-    </header>
-	<br>
-	<br>
-	<br>
-	<main>
-		<section class="top">
-			<div class="intro">
-					<h1><small>Hi I'm</small>
-						Abhiditya Kumari
-					</h1>
-					<p>Programmer and Developer<br>
-						Currently an undergraduate, pursuing Computer Science & Engineering with specialization in AI.
-						Happy Scrolling ---------->
-					</p>
-			</div>
-			<div class="dp">
-				<img id="theme-image" src="./Img/Me(dark).png" alt="Abby" width="100%" />
-			</div>
-		</section>
-		<br>
-		<br>
-		<br> 
-		<section id="about" class="about">
-			<h2>
-				About Me
-			</h2>
-			<div class="holder-side">
-				<div class="left-column">
-					<h3>Skills</h3>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>React</li>
-						<li>Node.js</li>
-						<li>C/C++</li>
-						<li>Java</li>
-						<li>Python</li>
-						<li>DSA</li>
-					</ul>
-				</div>
-				<div class="right-column">
-					<h3>Intro</h3>
-					<p>
-						Hi, other than the tech stuff, my other hobbies include exploring/travelling, listening to music, reading books(fiction) and goofing around.<br>
-						<span>I do have a little bit of Monica in me, but I can also be a Chandler to your Joey.(FRIENDS referrence;-) </span>
-					</p>
-					<p>
-						You can also check out some of my previous works in the Projects section below. Feel free to leave suggestions or reach out ;-)
-					</p>
-				</div>
-			</div>
-			<br>
-			<br>
-			<div class="holder-down">
-				<img src="./Img/html.png" alt="HTML" width="128" />
-				<img src="./Img/css.png" alt="CSS" width="128" />
-				<img src="./Img/javascript.png" alt="JS" width="128" />
-				<img src="./Img/react.png" width="128" alt="React" />
-				<img src="./Img/vscode.png" width="128" alt="VS Code" />
-				<img src="./Img/cpp.jpg" width="128" alt="C++"  />
-				<img src="./Img/java.png" width="128" alt="Java"/>
-				<img src="./Img/python.png" width="128" alt="Python" />
-			</div>
-		</section>
-		<br>
-		<section id="achievements" class="achievements">
-			<h2>
-				Achievements
-			</h2>
-			<div class="holder">
-				<div class="education" id="education">
-					<h3>Education</h3>
-					<ul class="education-list">
-						<li>
-							<h4>B.Tech(CSE) - G.L.B.I.T.M</h4>
-							<h5>(2022 - present)</h5>
-						</li>
-						
-						<li>
-							<h4>Intermediate - D.A.V Public School</h4>
-							<h5>(2021)</h5>
-						</li>
-						<br>
-					</ul>
-				</div>
-				<div class="partition-line"></div>
-				<div class="badges">
-					<h3>Badges</h3>
-					<div class="badges-container">
-						<img src="./Img/bg1.png"  class="badge" />
-						<img src="./Img/bg2.png" class="badge" />
-						<img src="./Img/CodeChefBadge.png" class="badge" />
-						<img src="./Img/dsacerti.jpg" alt="dsa" class="badge" />
-						<img src="./Img/bg3.png" class="badge" />
-						<img src="./Img/bg4.png" class="badge" />
-						<img src="./Img/bg5.png" class="badge" />
-						<img src="./Img/bg6.png" class="badge" />
-						<img src="./Img/Lc50.gif" class="badge" />
-					</div>
-				</div>
-			</div>
-			<br>
-		</section> 
-		<br>
-		<section id="projects" class="projects">
-			<h2>
-				Projects
-			</h2>
-			<div class="holder">
-				<div class="box">
-					<div class="img">
-						<img src="./Img/tictactoe.png">
-						<video src="./Vid/tictactoe.mp4" muted loop autoplay></video>
-					</div>
-					<h3>Tic-Tac-Toe</h3>
-					<div class="info">
-						<a href="https://github.com/Abhiditya/Tic-Tac-Toe-game-">Code</a>
-						<a href="https://abhiditya.github.io/Tic-Tac-Toe-game-/">In Action</a>
-					</div>
-					
-				</div>
-				<div class="box">
-					<div class="img">
-						<img src="./Img/suduko.png">
-						<video src="./Vid/suduko.mp4" muted loop autoplay></video>
-					</div>
-					<h3>Suduko</h3>
-					<div class="info">
-						<a href="https://github.com/Abhiditya/Sudoku-game-">Code</a>
-						<a href="https://abhiditya.github.io/Sudoku-game-/">In Action</a>
-					</div>
-				</div>
-				<div class="box">
-					<div class="img">
-						<img src="./Img/sorting1.png">
-						<video src="./Vid/sort.mp4" muted loop autoplay></video>
-					</div>
-					<h3>Sorting Visualizer</h3>
-					<div class="info">
-						<a href="https://github.com/Abhiditya/sorting_visualizer">Code</a>
-						<a href="https://abhiditya.github.io/sorting_visualizer/">In Action</a>
-					</div>
-				</div>
-			</div>
-			<br>
-		</section> 
-		<br>
-		<br>
-		<footer>
-            <div class="social" id="contact">
-                <a href="mailto:k.abhiditya09@gamil.com"><i class="fa-regular fa-envelope" aria-hidden="true"></i></i></a>
-                <a href="https://github.com/Abhiditya"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/abhiditya.k/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/abhiditya-kumari-6a9809259"><i class="fa-brands fa-linkedin-in" ></i></a>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./Img/logo.jpg" alt="Logo">
             </div>
-            <p class="end">@2024 CopyRight by Abhiditya</p>
-        </footer>
-	</main>
+            <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name glitch" data-text="Abhiditya Kumari">Abhiditya Kumari</h1>
+                <p class="hero-title">Programmer & Developer</p>
+                <p class="hero-description">
+                    Passionate about creating elegant solutions through code. 
+                    Currently pursuing Computer Science & Engineering with specialization in AI.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img id="profile-image" src="./Img/Me(dark).png" alt="Abhiditya Kumari">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content scroll-reveal-left">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate computer science student with a love for creating 
+                        innovative solutions through technology. My journey in programming 
+                        started with curiosity and has evolved into a deep appreciation 
+                        for clean, efficient code.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science & Engineering<br>
+                            <span class="detail-sub">G.L.B.I.T.M (2022 - Present)</span></p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3>Interests</h3>
+                            <p>Beyond coding, I enjoy exploring new places, listening to music, 
+                            reading fiction, and connecting with people. I believe in balancing 
+                            technical skills with creativity and human connection.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats scroll-reveal-right">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">9+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="floating-shapes">
+            <div class="floating-shape parallax-element"></div>
+            <div class="floating-shape parallax-element"></div>
+            <div class="floating-shape parallax-element"></div>
+        </div>
+        <div class="container">
+            <div class="section-header emerge-up">
+                <h2>Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category scroll-reveal-left">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category scroll-reveal">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>Spring</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category scroll-reveal-right">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-code-fork"></i>
+                            <span>Eclipse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-grid scroll-reveal">
+                <div class="project-card scroll-reveal-stagger tilt-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiditya/Tic-Tac-Toe-game-" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://abhiditya.github.io/Tic-Tac-Toe-game-/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Interactive game with friends or AI opponent.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiditya/Sudoku-game-" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://abhiditya.github.io/Sudoku-game-/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sudoku Solver</h3>
+                        <p>Advanced puzzle solver using backtracking algorithm.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiditya/Sorting_Visualizer" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://abhiditya.github.io/Sorting_Visualizer/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sorting Visualizer</h3>
+                        <p>Visual representation of sorting algorithms with speed controls.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiditya/Pathfinding-_Visualizer" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://abhiditya.github.io/Pathfinding-_Visualizer/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Path Visualizer</h3>
+                        <p>Interactive pathfinding with various algorithms.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiditya/url-shortener" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a class="project-link disabled" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>URL Shortener <span class="status-badge">In Progress</span></h3>
+                        <p>Full-stack URL shortener with custom links and analytics.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="floating-shapes">
+            <div class="floating-shape parallax-element"></div>
+            <div class="floating-shape parallax-element"></div>
+        </div>
+        <div class="container">
+            <div class="section-header emerge-up">
+                <h2>Achievements & Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="achievements-container scroll-reveal-scale">
+                <div class="badges-section">
+                    <h3>Coding Badges</h3>
+                    <div class="badges-grid">
+                        <img src="./Img/CodeChefBadge.png" alt="CodeChef Badge" class="badge">
+                        <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="LeetCode 50" class="badge">
+                        <img src="https://assets.leetcode.com/static_assets/others/2550.gif" alt="LeetCode 25" class="badge">
+                        <img src="https://assets.leetcode.com/static_assets/others/25100.gif" alt="LeetCode 100" class="badge">
+                        <img src="./Img/bg3.png" alt="Badge" class="badge">
+                        <img src="./Img/bg4.png" alt="Badge" class="badge">
+                    </div>
+                </div>
+                
+                <div class="credly-section">
+                    <h3>Credly Badges</h3>
+                    <div class="credly-grid">
+                        <a href="https://www.credly.com/badges/b2bcf2d9-6cb3-46df-8b9f-773df786cd3d/public_url" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/220x220/images/68c0b94d-f6ac-40b1-a0e0-921439eb092e/image.png" alt="Python Essentials 1" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/earner/earned/badge/865f1f29-2a8a-4486-9106-eaf85f2c1ba9" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/earner/earned/badge/4d4136d3-6b83-4228-ae23-d092b48326de" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/340x340/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="CCNA: Switching, Routing, and Wireless Essentials" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/earner/earned/badge/64e77f4f-6785-4696-846f-8c8e79493496" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/680x680/images/3f802526-7274-4230-91ab-f6d1a35340e6/image.png" alt="Python Essentials 2" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/earner/earned/badge/2c8c5d4a-87a7-4a1f-89a4-122409dd38b2" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="CCNA: Introduction to Networks" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/badges/21c8d027-1ee7-4d3a-be5f-929f46cb4fbd/public_url" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/220x220/images/2f7b0627-48a0-4894-8d46-3245bdfe0463/image.png" alt="Networking Basics" class="badge">
+                        </a>
+                        <a href="https://www.credly.com/badges/3d0cec3f-d5d1-465d-84cb-3f5eb2637377/public_url" target="_blank" class="credly-badge">
+                            <img src="https://images.credly.com/size/220x220/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png" alt="Networking Basics" class="badge">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="certificates-section">
+                    <h3>Certificates</h3>
+                    <div class="certificates-grid">
+                        <img src="./Img/dsacerti.jpg" alt="DSA Certificate" class="certificate">
+                        <img src="./Img/bg5.png" alt="Certificate" class="certificate">
+                        <img src="./Img/bg6.png" alt="Certificate" class="certificate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header emerge-up">
+                <h2>Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content scroll-reveal-scale">
+                <p>I'm always interested in new opportunities and collaborations. Let's connect!</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:k.abhiditya09@gmail.com" class="contact-link scroll-reveal-scale">
+                        <i class="fas fa-envelope"></i>
+                        <span>Mail</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/abhiditya-kumari" class="contact-link scroll-reveal-scale" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    
+                    <a href="https://github.com/Abhiditya" class="contact-link scroll-reveal-scale" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    
+                    <a href="https://instagram.com/abhiditya.k" class="contact-link scroll-reveal-scale" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Abhiditya Kumari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top" onclick="scrollToTop()" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Particle Background -->
+    <div id="particles-container"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
 </body>
 </html>
